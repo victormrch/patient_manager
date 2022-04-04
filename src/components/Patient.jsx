@@ -31,17 +31,17 @@ const Patient = ({ patient, setPatient, deletePatient }) => {
         Reason for visit : {""}
         <span className="font-normal normal-case">{reason}</span>
       </p>
-      <div className="flex justify-between mt-8">
+      <div className="flex flex-row justify-between mt-8">
         <button
           type="button"
-          className="py-2 px-10 bg-amber-500 hover:bg-amber-700 text-white font-bold uppercase rounded-lg"
+          className="py-2 px-10 mb-2 bg-amber-500 hover:bg-amber-700 text-white font-bold uppercase rounded-lg"
           onClick={() => setPatient(patient)}
         >
           Edit
         </button>
         <button
           type="button"
-          className="py-2 px-10 bg-red-500 hover:bg-red-700 text-white font-bold uppercase rounded-lg"
+          className="py-2 px-10 mb-2 bg-red-500 hover:bg-red-700 text-white font-bold uppercase rounded-lg"
           onClick={handleDelete}
         >
           Delete
