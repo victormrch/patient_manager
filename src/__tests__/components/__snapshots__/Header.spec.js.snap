@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component specs should render correctly using snapshot testing 1`] = `
+<DocumentFragment>
+  <h1
+    class="font-black text-5xl text-center mx-auto md:w-2/3"
+  >
+    <span
+      class="text-indigo-700"
+    >
+      Advance
+    </span>
+     Veterinary Care
+  </h1>
+</DocumentFragment>
+`;

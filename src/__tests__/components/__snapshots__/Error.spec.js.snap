@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error component specs should render correctly using snapshot testing 1`] = `
+<DocumentFragment>
+  <div
+    class="bg-red-800 text-white text-center p-3 uppercase font-bold rounded-md mb-5"
+  >
+    <p>
+      Test error
+    </p>
+  </div>
+</DocumentFragment>
+`;

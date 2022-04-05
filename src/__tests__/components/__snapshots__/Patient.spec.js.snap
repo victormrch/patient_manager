@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component spects should render correctly using snapshot testing with Empty Patient 1`] = `
+<DocumentFragment>
+  <div
+    class="my-5 mx-5 bg-white shadow-md px-5 py-10 rounded-xl"
+  >
+    <p
+      class="font-bold mb-3 text-gray-700 uppercase"
+    >
+      Nombre : 
+      <span
+        class="font-normal normal-case"
+      >
+        Test Name
+      </span>
+    </p>
+    <p
+      class="font-bold mb-3 text-gray-700 uppercase"
+    >
+      Owner Name : 
+      <span
+        class="font-normal normal-case"
+      >
+        Test Owner
+      </span>
+    </p>
+    <p
+      class="font-bold mb-3 text-gray-700 uppercase"
+    >
+      Email Address : 
+      <span
+        class="font-normal normal-case"
+      >
+        test@test.com
+      </span>
+    </p>
+    <p
+      class="font-bold mb-3 text-gray-700 uppercase"
+    >
+      DISCHARGE DATE : 
+      <span
+        class="font-normal normal-case"
+      >
+        2019-01-01
+      </span>
+    </p>
+    <p
+      class="font-bold mb-3 text-gray-700 uppercase"
+    >
+      Reason for visit : 
+      <span
+        class="font-normal normal-case"
+      >
+        Test Reason
+      </span>
+    </p>
+    <div
+      class="flex flex-row justify-between mt-8"
+    >
+      <button
+        class="py-2 px-10 mb-2 bg-amber-500 hover:bg-amber-700 text-white font-bold uppercase rounded-lg"
+        type="button"
+      >
+        Edit
+      </button>
+      <button
+        class="py-2 px-10 mb-2 bg-red-500 hover:bg-red-700 text-white font-bold uppercase rounded-lg"
+        type="button"
+      >
+        Delete
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
