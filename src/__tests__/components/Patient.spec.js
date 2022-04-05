@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import Patient from "../../components/Patient";
 import "@testing-library/jest-dom/extend-expect";
@@ -13,8 +13,8 @@ const mockPatient = {
   reason: "Test Reason",
 };
 
-describe("Form component spects", () => {
-  it("should render correctly using snapshot testing with Empty Patient", () => {
+describe("Form component specs", () => {
+  it("should render correctly using snapshot testing", () => {
     const { asFragment } = render(<Patient patient={mockPatient} />);
     expect(asFragment()).toMatchSnapshot();
   });

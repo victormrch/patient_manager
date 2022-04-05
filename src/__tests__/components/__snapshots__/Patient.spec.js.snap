@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Form component spects should render correctly using snapshot testing with Empty Patient 1`] = `
+exports[`Form component specs should render correctly using snapshot testing 1`] = `
 <DocumentFragment>
   <div
     class="my-5 mx-5 bg-white shadow-md px-5 py-10 rounded-xl"
