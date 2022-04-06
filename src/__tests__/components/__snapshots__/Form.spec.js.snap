@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component specs should render correctly using snapshot testing and botton text should put Add Patient when patient is empty 1`] = `
+<DocumentFragment>
+  <div
+    class="md:w-1/2 lg:w-2/5 mx-5"
+  >
+    <h2
+      class="font-black text-3xl text-center"
+    >
+      Patient Follow-Up
+    </h2>
+    <p
+      class="text-lg mt-5 text-center mb-10"
+    >
+      Add Patient and 
+      <span
+        class="text-indigo-600 font-bold "
+      >
+        Manage Them
+      </span>
+    </p>
+    <form
+      class="bg-white shadow-md rounded-lg py-10 px-5 mb-10"
+    >
+      <div
+        class="mb-5"
+      >
+        <label
+          class="block text-gray-700 uppercase font-bold"
+          for="pet"
+        >
+          Pet Name
+        </label>
+        <input
+          class="border-2 w-full p-2 mt-w placeholder-gray-400 rounded-md"
+          id="pet"
+          placeholder="Enter the Pet's Name"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="mb-5"
+      >
+        <label
+          class="block text-gray-700 uppercase font-bold"
+          for="owner"
+        >
+          Owner Name
+        </label>
+        <input
+          class="border-2 w-full p-2 mt-w placeholder-gray-400 rounded-md"
+          id="owner"
+          placeholder="Enter the Owner's Name"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="mb-5"
+      >
+        <label
+          class="block text-gray-700 uppercase font-bold"
+          for="email"
+        >
+          Email Address
+        </label>
+        <input
+          class="border-2 w-full p-2 mt-w placeholder-gray-400 rounded-md"
+          id="email"
+          placeholder="Enter the owner's Mail"
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        class="mb-5"
+      >
+        <label
+          class="block text-gray-700 uppercase font-bold"
+          for="date"
+        >
+          discharge date
+        </label>
+        <input
+          class="border-2 w-full p-2 mt-w placeholder-gray-400 rounded-md"
+          id="date"
+          type="date"
+          value=""
+        />
+      </div>
+      <div
+        class="mb-5"
+      >
+        <label
+          class="block text-gray-700 uppercase font-bold"
+          for="symptoms"
+        >
+          Reason for visit
+        </label>
+        <textarea
+          class="border-2 w-full p-2 mt-w placeholder-gray-400 rounded-md"
+          id="symptoms"
+          placeholder="Enter the Pet Symptoms"
+        />
+      </div>
+      <input
+        class="bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer transition-colors rounded-lg"
+        type="submit"
+        value="Add Patient"
+      />
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Form component specs should render correctly using snapshot testing and botton text should put Edit Patient when patient is filled 1`] = `
+<DocumentFragment>
+  <div
+    class="md:w-1/2 lg:w-2/5 mx-5"
+  >
+    <h2
+      class="font-black text-3xl text-center"
+    >
+      Patient Follow-Up
+    </h2>
+    <p
+      class="text-lg mt-5 text-center mb-10"
+    >
+      Add Patient and 
+      <span
+        class="text-indigo-600 font-bold "
+      >
+        Manage Them
+      </span>
+    </p>
+    <form
+      class="bg-white shadow-md rounded-lg py-10 px-5 mb-10"
+    >
+      <div
+        class="mb-5"
+      >
+        <label
+          class="block text-gray-700 uppercase font-bold"
+          for="pet"
+        >
+          Pet Name
+        </label>
+        <input
+          class="border-2 w-full p-2 mt-w placeholder-gray-400 rounded-md"
+          id="pet"
+          placeholder="Enter the Pet's Name"
+          type="text"
+          value="Test Name"
+        />
+      </div>
+      <div
+        class="mb-5"
+      >
+        <label
+          class="block text-gray-700 uppercase font-bold"
+          for="owner"
+        >
+          Owner Name
+        </label>
+        <input
+          class="border-2 w-full p-2 mt-w placeholder-gray-400 rounded-md"
+          id="owner"
+          placeholder="Enter the Owner's Name"
+          type="text"
+          value="Test Owner"
+        />
+      </div>
+      <div
+        class="mb-5"
+      >
+        <label
+          class="block text-gray-700 uppercase font-bold"
+          for="email"
+        >
+          Email Address
+        </label>
+        <input
+          class="border-2 w-full p-2 mt-w placeholder-gray-400 rounded-md"
+          id="email"
+          placeholder="Enter the owner's Mail"
+          type="email"
+          value="test@test.com"
+        />
+      </div>
+      <div
+        class="mb-5"
+      >
+        <label
+          class="block text-gray-700 uppercase font-bold"
+          for="date"
+        >
+          discharge date
+        </label>
+        <input
+          class="border-2 w-full p-2 mt-w placeholder-gray-400 rounded-md"
+          id="date"
+          type="date"
+          value="2019-01-01"
+        />
+      </div>
+      <div
+        class="mb-5"
+      >
+        <label
+          class="block text-gray-700 uppercase font-bold"
+          for="symptoms"
+        >
+          Reason for visit
+        </label>
+        <textarea
+          class="border-2 w-full p-2 mt-w placeholder-gray-400 rounded-md"
+          id="symptoms"
+          placeholder="Enter the Pet Symptoms"
+        >
+          Test Reason
+        </textarea>
+      </div>
+      <input
+        class="bg-indigo-600 w-full p-3 text-white uppercase font-bold hover:bg-indigo-700 cursor-pointer transition-colors rounded-lg"
+        type="submit"
+        value="Edit Patient"
+      />
+    </form>
+  </div>
+</DocumentFragment>
+`;
